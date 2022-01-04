@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Documento de Visión y Alcance de la Formula de la Raíz Cuadrada de -1}
+\author{Ayrton Raul Bolaños Waldo}
+\date{Enero de 2021}
+
+\begin{document}
+
+\maketitle
+\section{Experiencia Educativa: Pruebas de software}
+\section{Sobre el Proyecto: El proyecto se basa en prácticas de la ecuación de la raíz cuadrada de -1, a partir del cuál se desarrolla un software con administración de proyectos Kanban Automatizados y protegidos bajo el gitHub Action. El proyecto está desarrollado con modelo Git branching Model, con branchs: master, hotfixes, release, develop. Cada issue contiene su definición, mockup, diagrama de clases y las pruebas que necesita pasar. Nuestros issues tienen un prototipo base, el cuál es: landing page (test, code, mockup), test (.ts y .spec.ts) y UI (Componente angular con html, css, ts y spec.ts). El front está publicado en firebase.com y se ha implementado el code.coverage del proyecto.}
+\section{Objetivos de aprendizaje: Implementar los aprendizajes previamente adquiridos como lo son el uso de software com gitHub, Kanban, LATEX, gitBash, VSCode; y tecnologías como HTML, CSS, JS, TS y pruebas de ts. Al igual que plataformas como firebase.com.  }
+\end{document}
