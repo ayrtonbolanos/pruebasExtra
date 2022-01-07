@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div>
+        <h1>Formula Raiz Cuadrada de -1</h1>
+    </div>
+    <div>
+        <h3>
+            La formula fue descrita por Leonhard Euler en el año de 1750, y dio lugar a los numeros complejos,
+            esencial para la resolucion de muchos problemas. <br>
+        </h3>
+        <h3>
+            i^2=-1 (Euler 1750) <br>
+        </h3>
+        <h4>Ingresa un Numero:</h4>
+    </div>
+    <div>
+        <input type="number" name="i" placeholder="imaginario" id="i" [(ngModel)]="i">
+        <button (click)="calcular()">Calcular</button>
+    </div>
+    <p>i^2 = {{r}}</p>
+</body>
+</html>
